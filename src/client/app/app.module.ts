@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { routes } from './app.routes';
 
 import { LoginModule } from './login/login.module';
-import { DashboardModule } from './dashboard/dashboard.module';
+import { HomeModule } from './home/home.module';
 import { SharedModule } from './shared/shared.module';
 
 
@@ -17,7 +17,7 @@ import { SharedModule } from './shared/shared.module';
 		HttpModule,
 		RouterModule.forRoot(routes),
 		LoginModule,
-		DashboardModule,
+		HomeModule,
 		SharedModule.forRoot()
 	],
 	declarations: [AppComponent],
